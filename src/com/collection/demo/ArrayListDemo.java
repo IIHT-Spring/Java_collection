@@ -14,6 +14,7 @@ public class ArrayListDemo {
 		Student.add("Binay");
 		Student.add("Kunal");
 		Student.add("Sourav");
+	
 		//sort an array 
 	//	Collections.sort(Student); // sort a string
 		ArrayList<Integer> Roll = new ArrayList<Integer>();
@@ -26,7 +27,7 @@ public class ArrayListDemo {
 		Roll.add(32);
 		Collections.sort(Roll); // sort int
 		System.out.println(Roll);
-		Roll.remove(3);
+		Roll.remove(3); // remove an element
 		System.out.println(Roll);
 		
 		Iterator studentItr = Student.iterator();
