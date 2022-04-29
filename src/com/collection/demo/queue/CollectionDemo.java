@@ -14,7 +14,7 @@ public class CollectionDemo {
 		movieLine.add("Shayam");
 		System.out.println("Head: " + movieLine.element());
 		System.out.println("peek: " + movieLine.peek());
-		movieLine.remove("Ramesh");
+		movieLine.remove("Ramesh"); // how to remove from a queue
 		Iterator iMovieLine = movieLine.iterator();
 		while(iMovieLine.hasNext()) {
 			System.out.println(iMovieLine.next());
